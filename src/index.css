@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.desktop {
+  display: none;
+}
+
+.mobile {
+  display: block;
+}
+
+.justified {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.015);
+  border: solid 2px #fafafa;
+}
+
+.heading {
+  font-size: 120%;
+  margin-bottom: 3rem;
+}
+
+.small {
+  font-size: 80%;
+}
+
+.small * {
+  font-size: 80%;
+}
+
+.small > {
+  font-size: 80%;
+}
+
+.container {
+  margin: auto;
+}
+
+.spinner {
+  text-align: center;
+}
+
+.Chart {
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0px 2px 15px rgba(25, 25, 25, 0.27);
+  margin: 2rem 0;
+  text-align: center;
+  padding: 15px 15px 15px 15px;
+}
+
+.Chart h2 {
+  margin-top: 0;
+  padding: 15px 0;
+  color:  rgba(255, 0,0, 0.5);
+  border-bottom: 1px solid #fafafa;
+}
+
+.header{
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.box {
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0px 2px 15px rgba(25, 25, 25, 0.27);
+  margin: 2rem 0;
+  text-align: center;
+  padding: 15px 15px 15px 15px;
+}
+
+@keyframes yellowfade {
+    from { background: yellow; }
+    to { background: transparent; }
+}
+
+.highlightrow {
+    animation-name: yellowfade;
+    animation-duration: 1.5s;
+}
+
+.bottomfade {
+   -webkit-mask-image: -webkit-gradient(linear, left top, left bottom,
+   color-stop(0.00,  rgba(0,0,0,1)),
+   color-stop(0.70,  rgba(0,0,0,1)),
+   color-stop(1.00,  rgba(0,0,0,0)));
+}
+
+.container {
+  width: 100%;
+  margin: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+  .mobile {
+    display: none;
+  }
+  .desktop {
+    display: block;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
