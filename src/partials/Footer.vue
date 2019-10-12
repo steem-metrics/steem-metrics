@@ -6,12 +6,21 @@
 
       <div class="justified">
         <div>
-          A <a
+
+          Developed by
+          <a
             href="https://steeminc.com"
-            target="_blank">Steem Inc</a> company |
-            Dated data by <a
-              href="https://steemapps.com"
-              target="_blank">Steem Apps API</a>
+            target="_blank">Steem Inc</a>
+          and
+          <a
+            href="https://steem.institute"
+            target="_blank">Steem Institute</a>
+
+          <a-divider type="vertical" />
+          Dated data by
+          <a
+            href="https://steemapps.com"
+            target="_blank">Steem Apps API</a>
         </div>
         <div>
           <router-link to="/about">About</router-link>
@@ -21,6 +30,12 @@
           <a
             href="https://steemstudios.com"
             target="_blank">Solutions</a>
+
+          <a-divider type="vertical" />
+
+          <a
+            href="https://steemian.net"
+            target="_blank">Community</a>
 
           <a-divider type="vertical" />
 

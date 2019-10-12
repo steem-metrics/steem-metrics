@@ -3,12 +3,12 @@
     <div class="justified">
       <a href="/">
         <img
-          :src="'/img/steem-metrics-banner.png'"
+          :src="'/img/steem-metrics-wordmark.png'"
           alt="logo"
           style="width: 100px;"
           class="desktop">
         <img
-          :src="'/img/steem-metrics-logo.png'"
+          :src="'/img/steem-metrics-wordmark.png'"
           alt="logo"
           style="width: 100px;"
           class="mobile">
