@@ -1,6 +1,6 @@
 <template>
 
-  <div>
+  <div class="container">
 
     <div class="header">
       <h2>Privacy Policy</h2>
