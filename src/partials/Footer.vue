@@ -9,8 +9,8 @@
 
           A
           <a
-            href="https://steeminc.com"
-            target="_blank">Steem Inc</a> company
+            href="https://steemstudios.com"
+            target="_blank">Steem Studios</a> production
         </div>
         <div>
           <router-link to="/about">About</router-link>
